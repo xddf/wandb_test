@@ -16,16 +16,16 @@
 > ![](./ex_img/wnb_new.png)
 > 새 프로젝트 생성 위치
 
-> ![1](./ex_img/new_create.png)
+> ![1](./new_create.png)
 > 프로젝트 기본 요구사항 입력 및 생성
 
-> ![2](./ex_img/new_type.png)
+> ![2](./new_type.png)
 > 생성이 완료되면 프로젝트의 기본 타입별 튜토리얼을 확인할 수 있음
 
 4. 터미널에서 wandb 로그인
   - $ wandb login
   - 토큰 입력
-    > ![3](./ex_img/token.png)
+    > ![3](./token.png)
 
 ### 3. wandb로 트래킹하기
 1. 코드(quickstart_tutorial.py) 수정
@@ -94,5 +94,5 @@ def test(dataloader, model, loss_fn):
   - 코드가 실행되면 데이터로더 구성 / f-mninst 데이터셋 다운 / 모델 생성 등이 자동으로 진행되고 학습함
 3. 확인
   - wandb에서 확인
-    >![4](./ex_img/log.png)
+    >![4](./log.png)
 
