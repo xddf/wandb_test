@@ -13,19 +13,19 @@
   - torchvision
   - wandb    
 3. wandb 가입 및 새 프로젝트 생성
-> ![](.ex_img/wnb_new.png)
+> ![](./ex_img/wnb_new.png)
 > 새 프로젝트 생성 위치
 
-> ![](.ex_img/new_create.png)
+> ![](./ex_img/new_create.png)
 > 프로젝트 기본 요구사항 입력 및 생성
 
-> ![](.ex_img/new_type.png)
+> ![](./ex_img/new_type.png)
 > 생성이 완료되면 프로젝트의 기본 타입별 튜토리얼을 확인할 수 있음
 
 4. 터미널에서 wandb 로그인
   - $ wandb login
   - 토큰 입력
-    > ![](.ex_img/token.png)
+    > ![](./ex_img/token.png)
 
 ### 3. wandb로 트래킹하기
 1. 코드(quickstart_tutorial.py) 수정
